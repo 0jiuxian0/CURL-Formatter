@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header h5 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-control {
+    border-radius: 5px;
+    min-height: 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#output {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    min-height: 200px;
+}
+
+.btn-copy {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    display: none;
+}
+
+.alert {
+    display: none;
+    margin-top: 10px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copy-success {
+    color: #198754;
+    font-size: 0.875rem;
+    display: none;
+} 
